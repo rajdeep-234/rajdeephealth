@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.topnav {
+    background-color: #001f4d;
+    /* dark blue */
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav .logo img {
+    height: 50px;
+}
+
+.topnav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.topnav ul li {
+    display: inline-block;
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+.topnav .contact-btn {
+    background-color: rgb(11, 162, 222);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+
+}
+
+.ban-sec {
+    background: url(./HEALTH.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: #000;
+}
+
+.container_ban {
+    max-width: 600px;
+}
+
+.ban-sec span {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.ban-sec h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+    color: #001f3f;
+    text-transform: uppercase;
+}
+
+.ban-sec h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.ban-btn {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.ban-btn a {
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.btn-prime {
+    background: #33bbff;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.btn-sec {
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+    text-transform: uppercase;
+
+}
+
+.btn-sec:hover {
+    background: #000;
+    color: #fff;
+}
+
+.content-body span {
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    color: #b0c4de;
+    text-transform: uppercase;
+}
+
+.content-body h2 {
+    font-size: 28px;
+    margin: 0 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 40px;
+}
+
+.about-sec .image {
+    flex: 1;
+}
+
+.about-sec .image img {
+    width: 100%;
+}
+
+.about-sec .content-body {
+    flex: 1;
+    background: #052b61;
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.contact-body p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.content-body .abt-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #00bfff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.content-body .abt-btn:hover {
+    background: #0099cc;
+}
+
+.service-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #001f4d;
+}
+
+.cont-serv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.serv-card {
+    background: linear-gradient(135deg, #2e6cf6, #34c3ff);
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    margin: 20px;
+}
+
+.serv-card:hover {
+    transform: translateY(-4px);
+}
+
+.serv-card h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.serv-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.serv-card a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.serv-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.serv-cont {
+    flex: 1;
+    padding: 15px 20px;
+}
+
+.serv-cont span {
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    color: #b0c4de;
+    text-transform: uppercase;
+}
+
+.serv-cont h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    color: #b0c4de;
+}
+
+.serv-cont p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #d0d0d0;
+}
+
+.serv-cont .serv-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 14px;
+    color: #fff;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.card-sec {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+.card-sec span {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #555;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.card-sec h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #001f3f;
+    text-transform: uppercase;
+}
+
+.card-child {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-sec p {
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #666;
+}
+
+.star {
+    color: #f9b233;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cmn-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 280px;
+    max-width: 320px;
+    text-align: left;
+    position: relative;
+}
+
+.cmn-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.card-prof {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-prof img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.card-prof span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.double-quotes {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    font-size: 40px;
+    color: #e0e0e0;
+}
+
+.card-btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-btn a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.card-btn-prime {
+    background: #33bbff;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.card-btn-prime:hover {
+    background: #2e6cf6;
+    color: #d0d0d0;
+}
+
+.card-btn-sec {
+    border: 1px solid #333;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.card-btn-sec:hover {
+    background: #333;
+    color: #fff;
+}
+
+.appoint-online {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    background: #1ea2dc;
+    padding: 30px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.right-text h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.left-image {
+    flex: 1;
+}
+
+.left-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.right-text {
+    flex: 2;
+    padding-left: 30px;
+}
+
+.right-text .appoint-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-sec {
+    background: #022b5c;
+    /* Dark blue */
+    color: #fff;
+    padding: 40px 20px 20px;
+}
+
+.footer-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.cmn-footer {
+    flex: 1;
+    min-width: 200px;
+    margin: 15px;
+}
+
+.cmn-footer ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.cmn-footer li a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.8;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
